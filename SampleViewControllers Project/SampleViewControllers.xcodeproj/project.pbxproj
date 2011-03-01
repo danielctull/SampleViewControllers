@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24A217B7131D410400B22FC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A217B6131D410400B22FC3 /* UIKit.framework */; };
+		24A217B9131D410400B22FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A217B8131D410400B22FC3 /* Foundation.framework */; };
+		24A217BB131D410400B22FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A217BA131D410400B22FC3 /* CoreGraphics.framework */; };
+		24A217C1131D410400B22FC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24A217BF131D410400B22FC3 /* InfoPlist.strings */; };
+		24A217C4131D410400B22FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A217C3131D410400B22FC3 /* main.m */; };
+		24A217C7131D410400B22FC3 /* SampleViewControllersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A217C6131D410400B22FC3 /* SampleViewControllersAppDelegate.m */; };
+		24A217CB131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A217CA131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.m */; };
+		24A217CE131D410400B22FC3 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A217CC131D410400B22FC3 /* MainWindow_iPhone.xib */; };
+		24A217D2131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A217D1131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.m */; };
+		24A217D5131D410400B22FC3 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A217D3131D410400B22FC3 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24A217B2131D410400B22FC3 /* SampleViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A217B6131D410400B22FC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24A217B8131D410400B22FC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24A217BA131D410400B22FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24A217BE131D410400B22FC3 /* SampleViewControllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleViewControllers-Info.plist"; sourceTree = "<group>"; };
+		24A217C0131D410400B22FC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24A217C2131D410400B22FC3 /* SampleViewControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleViewControllers-Prefix.pch"; sourceTree = "<group>"; };
+		24A217C3131D410400B22FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24A217C5131D410400B22FC3 /* SampleViewControllersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewControllersAppDelegate.h; sourceTree = "<group>"; };
+		24A217C6131D410400B22FC3 /* SampleViewControllersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewControllersAppDelegate.m; sourceTree = "<group>"; };
+		24A217C9131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SampleViewControllersAppDelegate_iPhone.h; path = iPhone/SampleViewControllersAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		24A217CA131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SampleViewControllersAppDelegate_iPhone.m; path = iPhone/SampleViewControllersAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		24A217CD131D410400B22FC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		24A217D0131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SampleViewControllersAppDelegate_iPad.h; path = iPad/SampleViewControllersAppDelegate_iPad.h; sourceTree = "<group>"; };
+		24A217D1131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SampleViewControllersAppDelegate_iPad.m; path = iPad/SampleViewControllersAppDelegate_iPad.m; sourceTree = "<group>"; };
+		24A217D4131D410400B22FC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A217AF131D410400B22FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A217B7131D410400B22FC3 /* UIKit.framework in Frameworks */,
+				24A217B9131D410400B22FC3 /* Foundation.framework in Frameworks */,
+				24A217BB131D410400B22FC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24A217A7131D410400B22FC3 = {
+			isa = PBXGroup;
+			children = (
+				24A217BC131D410400B22FC3 /* SampleViewControllers */,
+				24A217B5131D410400B22FC3 /* Frameworks */,
+				24A217B3131D410400B22FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24A217B3131D410400B22FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A217B2131D410400B22FC3 /* SampleViewControllers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24A217B5131D410400B22FC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A217B6131D410400B22FC3 /* UIKit.framework */,
+				24A217B8131D410400B22FC3 /* Foundation.framework */,
+				24A217BA131D410400B22FC3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24A217BC131D410400B22FC3 /* SampleViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				24A217C5131D410400B22FC3 /* SampleViewControllersAppDelegate.h */,
+				24A217C6131D410400B22FC3 /* SampleViewControllersAppDelegate.m */,
+				24A217C8131D410400B22FC3 /* iPhone */,
+				24A217CF131D410400B22FC3 /* iPad */,
+				24A217BD131D410400B22FC3 /* Supporting Files */,
+			);
+			path = SampleViewControllers;
+			sourceTree = "<group>";
+		};
+		24A217BD131D410400B22FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A217BE131D410400B22FC3 /* SampleViewControllers-Info.plist */,
+				24A217BF131D410400B22FC3 /* InfoPlist.strings */,
+				24A217C2131D410400B22FC3 /* SampleViewControllers-Prefix.pch */,
+				24A217C3131D410400B22FC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24A217C8131D410400B22FC3 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				24A217C9131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.h */,
+				24A217CA131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.m */,
+				24A217CC131D410400B22FC3 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		24A217CF131D410400B22FC3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				24A217D0131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.h */,
+				24A217D1131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.m */,
+				24A217D3131D410400B22FC3 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24A217B1131D410400B22FC3 /* SampleViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A217D8131D410400B22FC3 /* Build configuration list for PBXNativeTarget "SampleViewControllers" */;
+			buildPhases = (
+				24A217AE131D410400B22FC3 /* Sources */,
+				24A217AF131D410400B22FC3 /* Frameworks */,
+				24A217B0131D410400B22FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleViewControllers;
+			productName = SampleViewControllers;
+			productReference = 24A217B2131D410400B22FC3 /* SampleViewControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24A217A9131D410400B22FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24A217AC131D410400B22FC3 /* Build configuration list for PBXProject "SampleViewControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24A217A7131D410400B22FC3;
+			productRefGroup = 24A217B3131D410400B22FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A217B1131D410400B22FC3 /* SampleViewControllers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24A217B0131D410400B22FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A217C1131D410400B22FC3 /* InfoPlist.strings in Resources */,
+				24A217CE131D410400B22FC3 /* MainWindow_iPhone.xib in Resources */,
+				24A217D5131D410400B22FC3 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24A217AE131D410400B22FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A217C4131D410400B22FC3 /* main.m in Sources */,
+				24A217C7131D410400B22FC3 /* SampleViewControllersAppDelegate.m in Sources */,
+				24A217CB131D410400B22FC3 /* SampleViewControllersAppDelegate_iPhone.m in Sources */,
+				24A217D2131D410400B22FC3 /* SampleViewControllersAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24A217BF131D410400B22FC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A217C0131D410400B22FC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24A217CC131D410400B22FC3 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A217CD131D410400B22FC3 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		24A217D3131D410400B22FC3 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A217D4131D410400B22FC3 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24A217D6131D410400B22FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24A217D7131D410400B22FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24A217D9131D410400B22FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleViewControllers/SampleViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "SampleViewControllers/SampleViewControllers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24A217DA131D410400B22FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleViewControllers/SampleViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "SampleViewControllers/SampleViewControllers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24A217AC131D410400B22FC3 /* Build configuration list for PBXProject "SampleViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A217D6131D410400B22FC3 /* Debug */,
+				24A217D7131D410400B22FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A217D8131D410400B22FC3 /* Build configuration list for PBXNativeTarget "SampleViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A217D9131D410400B22FC3 /* Debug */,
+				24A217DA131D410400B22FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24A217A9131D410400B22FC3 /* Project object */;
+}
