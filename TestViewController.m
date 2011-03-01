@@ -1,14 +1,14 @@
 //
-//  DTTestViewController.m
-//  DTResurrectionKit
+//  TestViewController.m
+//  SampleViewControllers
 //
 //  Created by Daniel Tull on 16.11.2009.
 //  Copyright 2009 Daniel Tull. All rights reserved.
 //
 
-#import "DTTestViewController.h"
+#import "TestViewController.h"
 
-@implementation DTTestViewController
+@implementation TestViewController
 
 - (IBAction)presentVC:(id)sender {
 }
